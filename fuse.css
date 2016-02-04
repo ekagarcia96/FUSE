@@ -14,7 +14,7 @@
      border-radius:5px;
     width:470px;
         padding:5px;
-        margin-top:-150px;
+        margin-top:70px;
         margin-left:-30px;
     }
     .inputbox {
@@ -38,6 +38,6 @@ a {
 }
 .maincontent {
     margin:auto;
-    margin-left:350px;
-    margin-right:50px;
+    margin-left:100px;
+    margin-right:250px;
 }
