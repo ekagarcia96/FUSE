@@ -4,10 +4,6 @@
     
     body, button {font-family:'Arvo',sans-serif;}
     body {
-        background-image: url(Images/fuse-background.jpg);
-        background-size: cover;
-        background-attachment:fixed;
-        margin-left:15px;
         color:#2F9A96;
     }
     .right-header {
@@ -30,13 +26,13 @@
     }
     #leftnav {
         position: absolute;
-        bottom: 150px;
+        top: 50px;
+        right: 20px;
     }
     .activenav {
         font-variant: small-caps;
         font-size:1.3rem;
     }
-
 a {
     color:#2F9A96;
 }
@@ -45,3 +41,10 @@ a {
     margin-left:100px;
     margin-right:250px;
 }
+
+#why{
+ margin-top: 700px;
+margin-left:600px;
+    width: 500px;
+}
+
