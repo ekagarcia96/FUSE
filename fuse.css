@@ -9,6 +9,8 @@
     .right-header {
         text-align:right;
         margin-right: 20px;
+        position:relative;
+        margin-top:-250px;
     }
     .formbox {
      border-radius:5px;
@@ -38,7 +40,7 @@ a {
 }
 .maincontent {
     margin:auto;
-    margin-left:100px;
+    margin-left:300px;
     margin-right:250px;
 }
 
