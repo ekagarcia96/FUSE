@@ -16630,16 +16630,26 @@ about_circle.attr({
   fill: '#5EFBFB'
 });
 
-var home_circle = s.circle(265, 150, 0);
+var home_circle = s.circle(205, 150, 0);
+home_circle.attr({
+  fill: 'green'
+});
+var contact_circle = s.circle(160, 100, 0);
+contact_circle.attr({
+  fill: 'purple'
+});
 
-
+    
 bigC.animate({r:250},4000,function(){
 	about_circle.animate({r:15},1000,function(){
 		s.text(255, 82, "about");
 	});
 	
 	home_circle.animate({r:15},1000,function(){
-		//s.text(255, 82, "about");
+		s.text(200, 150, "clientele");
+	});
+    contact_circle.animate({r:15},1000,function(){
+		s.text(170, 110, "contact");
 	});
 });	
 
